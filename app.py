@@ -1,5 +1,6 @@
 import streamlit as st
 import tempfile
+import pdfplumber
 from processor import process_pdf
 
 st.set_page_config(page_title="Cyber Fraud Analyzer", layout="centered")
